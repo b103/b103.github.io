@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-image: url(img/b103.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+p{ margin: 0; font-size: 15px; }
+p.title{ font-weight: bold; margin: 10px 0; }
+
+hr{ margin: 15px 0; }
+
+.container{
+    display: block;
+    width: auto;
+    margin: 16px;
+    padding: 16px;
+    background: #f2f2f2;
+    overflow-y: auto;
+    height: 90vh;
+}
+
+img{
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+img.logo{
+    max-width: 90px;
+}
+
+.app{ text-align: center; }
+.app.name{ font-weight: bold; margin: 10px 0; }
+.app.version{ font-size: 12px; }
+
+a.button{
+    display: block;
+    width: auto;
+    padding: 16px;
+    text-align: center;
+    margin: 15px 0;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
